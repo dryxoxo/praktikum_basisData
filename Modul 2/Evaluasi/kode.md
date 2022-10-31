@@ -121,7 +121,7 @@ DESCRIBE krs;
 ### a. Hapus keterangan Primary Key pada ‘NIDN’
 
 ```sql
-alter table dosen DROP PRIMARY KEY, change NIDN NIDN INT(12);
+ALTER TABLE dosen DROP PRIMARY KEY, change NIDN NIDN INT(12);
 ```
 
 ### b. Tambahkan kembali Primary Key pada ‘NIDN’
